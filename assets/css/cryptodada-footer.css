@@ -1,0 +1,44 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (min-width: 300px) {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+a:hover {
+  color: #2447ff;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #94ffff;
+}
+
+a {
+  color: #fafafa;
+}
+
+.text-uppercase {
+}
+
+.text-uppercase {
+  font-color: medium;
+}
+
+.text-uppercase {
+}
+
+a {
+  color: #ffffff;
+}
+

@@ -1,0 +1,169 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #868e96;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #080808;
+  --bs-secondary: #868e96;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: rgb(238, 0, 0);
+  background: var(--bs-primary);
+  transition: all .2s;
+}
+
+.btn-check:checked + .btn-light:focus, .btn-check:active + .btn-light:focus, .btn-light:active:focus, .btn-light.active:focus, .show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .25rem rgba(7,126,244,0.5);
+}
+
+.btn-light:hover {
+  color: #000;
+  background-color: #0a3c6e;
+  border-color: #f9fafb;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 500;
+  text-transform: none;
+  color: #000000;
+  font-family: 'Averia Serif';
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-family: 'Averia Serif';
+  font-weight: 700;
+  text-transform: none;
+  color: #404040;
+}
+
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.masthead {
+  background-image: url('gIL.jpg');
+}
+
+.swiper-slide {
+  background: url("../../assets/img/IMG_4645.jpg") center center / cover no-repeat;
+}
+
+body {
+  font-family: 'Averia Serif';
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'gravityregular';
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: none;
+  color: #000000;
+  font-family: 'Averia Serif';
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #000000;
+}
+
+a:hover {
+  color: #303030;
+}
+
+a:hover {
+  color: #525252;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #3b3b3b;
+}
+
+.text-primary {
+  color: #272727 !important;
+}
+
+.link-primary:hover, .link-primary:focus {
+  color: #1e1e1e;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #666666;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #101010;
+  }
+}
+
+@media (min-width: 300px) {
+  element.style {
+    width: 30%;
+    height: auto;
+  }
+}
+
+.link-primary {
+  color: #3e0805;
+}
+
+.link-primary:hover, .link-primary:focus {
+  color: #3e0805;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #3e0805;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #0a0a0a;
+  border-top: 0;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.text-muted {
+  color: #363636 !important;
+}
+
+a {
+  color: #2d2d2d;
+}
+
+a {
+  color: #000000;
+  text-decoration: blink;
+}
+
